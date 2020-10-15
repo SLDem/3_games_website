@@ -70,7 +70,7 @@ function drawBricks() {
                 bricks[c][r].y = brickY;
                 ctx.beginPath();
                 ctx.rect(brickX, brickY, brickWidth, brickHeight);
-                ctx.fillStyle = "#D64EF7";
+                ctx.fillStyle = "#D56A0C";
                 ctx.fill();
                 ctx.closePath();
             }
